@@ -11,14 +11,21 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'WelcomesController@welcome');
+Route::get('/about', 'WelcomesController@about');
+Route::get('/contact', 'WelcomesController@contact');
 
-Route::get('/contact', function(){
-    return view('contact');
-});
+// Route::get('/', function () {
+//     $tasks = ['makan', 'minum', 'mandi'];
 
-Route::get('/about',function(){
-    return view('about');
-});
+//     return view('welcome', ['tasks' => $tasks]);
+// });
+
+// Route::get('/contact', function(){
+//     return view('contact');
+// });
+
+
+// Route::get('/about',function(){
+//     return view('about');
+// });

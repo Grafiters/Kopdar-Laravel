@@ -1,9 +1,7 @@
 #LEARN LARAVEL
 - install Laravel 
     pertama kita menginstall depedenci laravel terlebih dahulu yaitu install Composer di
-    '''
-        composer.org
-    '''
+    '''composer.org'''
 
     - via Laravel Installing
         cara pertama untuk menginstall LARAVEL :
