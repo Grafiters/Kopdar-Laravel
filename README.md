@@ -1,5 +1,7 @@
 #LEARN LARAVEL
+
 - install Laravel 
+
     pertama kita menginstall depedenci laravel terlebih dahulu yaitu install Composer di
     '''composer.org'''
 
@@ -9,6 +11,7 @@
             '''
                 composer global require "laravel/installer"
             '''
+
         2. Jika sudah bikin project baru dengan:
             '''
                 laravel new blog
